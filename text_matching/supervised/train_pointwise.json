@@ -1,0 +1,14 @@
+{
+  "device": "cuda:0",
+  "num_train_epochs": 10,
+  "logging_steps": 10,
+  "valid_steps": 50,
+  "max_seq_len": 128,
+  "batch_size": 8,
+  "img_log_name": "ERNIE-PointWise",
+  "img_log_dir": "logs/comment_classify",
+  "save_dir": "checkpoints/comment_classify",
+  "dev_path": "data/comment_classify/dev.txt",
+  "train_path": "data/comment_classify/train.txt",
+  "model": "nghuyong/ernie-3.0-base-zh"
+}
